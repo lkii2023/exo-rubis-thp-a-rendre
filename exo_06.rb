@@ -1,6 +1,3 @@
 puts "Entrez un nombre:"
-nombre = gets.chomp.to_i
-
-nombre.times do
-  puts "Bonjour toi !"
-end
+num = gets.to_i
+(num - 1).times { puts "Bonjour toi !" }
