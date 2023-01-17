@@ -1,6 +1,6 @@
-emails = []
+mails = []
 50.times do |i|
-  email = "email#{i+1}@fauxdomaine.com"
-  emails << email
+  mail = "barbie#{i+1}@email.com"
+  mails << mail
 end
-puts emails
+puts mails
