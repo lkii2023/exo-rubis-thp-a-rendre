@@ -8,7 +8,5 @@ else
   1.upto(etages) do |i|
     puts "#{" " * (etages - i)}#{"#" * (2 * i - 1)}"
   end
-  (etages-1).downto(1) do |i|
-    puts "#{" " * (etages - i)}#{"#" * (2 * i - 1)}"
-  end
+  
 end
